@@ -1,21 +1,7 @@
-# conditional logic
-is_old = False
-is_licenced = True
+import conditional_statements
+import loop_statements
+import functions
 
-# 1. if else condition
-if is_old:
-  print("you can drive!")
-else:
-  print("you cannot drive!")
-
-# 2. if else if condition
-if is_old:
-  print("you can drive!")
-elif is_licenced:
-  print('you can drive because you have a licenc')
-else:
-  print("you cannot drive!")
-
-# 3. Ternary Opration
-# true_value if condition else false_value
-print('value is true') if True else print('value is false')
+conditional_statements.condition()
+loop_statements.loop()
+functions.numbers(1,2,3,4,5,6,num1=2,num2=3,num3=4)
